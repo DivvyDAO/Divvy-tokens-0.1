@@ -3,8 +3,8 @@ contract tokenRecipient { function receiveApproval(address _from, uint256 _value
 contract MyToken {
     /* Public variables of the token */
     string public standard = 'Token 0.1';
-    string public name;
-    string public symbol;
+    string public name = 'Divvy';
+    string public symbol = 'DVY';
     uint8 public decimals;
     uint256 public totalSupply;
 
@@ -22,7 +22,7 @@ contract MyToken {
         uint8 decimalUnits,
         string tokenSymbol
         ) {
-        balanceOf[msg.sender] = initialSupply;              // Give the creator all initial tokens
+        balanceOf[***MULTISIG WALLET OR CONTRACT***] = initialSupply;              // Give the creator all initial tokens
         totalSupply = initialSupply;                        // Update total supply
         name = tokenName;                                   // Set the name for display purposes
         symbol = tokenSymbol;                               // Set the symbol for display purposes
