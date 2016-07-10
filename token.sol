@@ -22,7 +22,7 @@ contract MyToken {
         uint8 decimalUnits,
         string tokenSymbol
         ) {
-        balanceOf[***MULTISIG WALLET OR CONTRACT***] = initialSupply;              // Give the creator all initial tokens
+        balanceOf[0x2C727c8644aCD0f002ECc863D325a0FD2F33C252] = initialSupply;              // Give the creator all initial tokens
         totalSupply = initialSupply;                        // Update total supply
         name = tokenName;                                   // Set the name for display purposes
         symbol = tokenSymbol;                               // Set the symbol for display purposes
