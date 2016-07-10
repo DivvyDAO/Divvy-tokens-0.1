@@ -3,7 +3,7 @@ First iteration tokens on ethereum to be used by the DivvyDAO community in an in
 
 ##Watch Token
 
-![Watch token](/dvvy.png Watch token)
+![Watch token](/dvvy.png "Watch token")
 
 # TOKEN CONTRACT ADDRESS
 0x8E1EFFc576b1F3da866B05266183D2D53747266C
